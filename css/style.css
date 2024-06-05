@@ -1,8 +1,8 @@
 :root {
-  --primary: #ffffff;
+  --primary: #000000;
   --secondary: #fe8800;
   --light: #f5f5f5;
-  --dark: #14141f;
+  --dark: #ffffff;
 }
 
 .fw-medium {
@@ -44,7 +44,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn-square {
@@ -79,7 +79,7 @@
   position: relative;
   margin-right: 25px;
   padding: 35px 0;
-  color: #ffffff !important;
+  color: #000000 !important;
   font-size: 18px;
   font-weight: 600;
   outline: none;
@@ -108,7 +108,7 @@
 @media (max-width: 991.98px) {
   .sticky-top.navbar-light {
     position: relative;
-    background: #ffffff;
+    background: #000000;
   }
 
   .navbar-light .navbar-collapse {
@@ -167,7 +167,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-  background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
+  background:
     url(../img/bg-hero.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -217,58 +217,10 @@
   left: 0;
 }
 
-/*** Service ***/
-.service-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
-  transition: 0.5s;
-}
-
-.service-item:hover {
-  background: var(--primary);
-}
-
-.service-item * {
-  transition: 0.5s;
-}
-
-.service-item:hover * {
-  color: var(--light) !important;
-}
-
-/*** Destination ***/
-.destination img {
-  transition: 0.5s;
-}
-
-.destination a:hover img {
-  transform: scale(1.1);
-}
-
-/*** Package ***/
-.package-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
-}
-
-.package-item img {
-  transition: 0.5s;
-}
-
-.package-item:hover img {
-  transform: scale(1.1);
-}
-
-/*** Booking ***/
-.booking {
-  background: linear-gradient(rgba(15, 23, 43, 0.7), rgba(15, 23, 43, 0.7)),
-    url(../img/booking.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /*** Team ***/
 .team-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  position: center;
 }
 
 .team-item img {
@@ -284,6 +236,7 @@
   color: var(--primary);
   border-radius: 20px;
   border-bottom: 1px solid var(--primary);
+  border-radius: 50%;
 }
 
 .team-item .btn:hover {
