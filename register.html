@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="container-fluid d-flex vh-100">
+        <div class="row flex-fill">
+            <div class="col-md-5 d-none d-md-flex flex-column justify-content-center align-items-center bg-image">
+                <nav class="navbar navbar-light">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <img src="img/Logo.png" alt="YOGYASAMBAT Logo" class="logo">
+                        <img src="img/Logo_Yogya.png" alt="YOGYASAMBAT Logo" class="logo">
+                    </a>
+                </nav>
+                <div class="text-center">
+                    <img src="img/logo-only.png" alt="Logo" class="img-fluid mb-4" style="width: 250px;">
+                    <h1 class="font-weight-bold">YOGYASAMBAT</h1>
+                    <p class="text-info">REPORT NOW!</p>
+                </div>
+            </div>
+            <div id="register-form" class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+                <div class="w-100">
+                    <h2 class="text-muted text-left">DAFTARKAN AKUN</h2>
+                    <h1 class="mb-4 text-left">Mulai Bergabung Sekarang</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                        <p class="text-center mt-3">Sudah memiliki akun? <a href="login.html">Sign In</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

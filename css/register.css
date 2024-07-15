@@ -1,0 +1,114 @@
+/* css/register.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10; /* Pastikan navbar berada di atas elemen lain */
+}
+
+.navbar .logo {
+    height: 40px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    margin-right: 10px; /* Jika Anda ingin memberi jarak antara dua logo */
+}
+
+
+.bg-image {
+    background-image: url('../img/bg.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(73, 56, 56, 0.2);
+    width: 100%;
+}
+
+#register-form .w-100 {
+    max-width: 650px;
+}
+
+#register-form h2,
+#register-form h1 {
+    text-align: left; /* Pastikan teks berada di kiri */
+}
+
+#register-form h2 {
+    font-size: 16px;
+    color: #c7c6c6;
+    margin-bottom: 10px;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+#register-form h1 {
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+#register-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#register-form input,
+#register-form button {
+    width: 100%;
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar elemen */
+}
+
+#register-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+#register-form button {
+    padding: 10px;
+    background-color: #4DA8B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background-color: #2f7883;
+}
+
+#register-form p {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+#register-form a {
+    color: #4DA8B5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#register-form a:hover {
+    text-decoration: underline;
+}

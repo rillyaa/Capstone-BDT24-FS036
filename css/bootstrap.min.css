@@ -84,7 +84,7 @@ h6,
   margin-bottom: 0.5rem;
   margin-right: -40rem;
   font-family: "Nunito", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.2;
   color: #2c3e50;
 }
@@ -6367,7 +6367,7 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 .my-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 2rem !important;
   margin-bottom: 1.5rem !important;
 }
 .my-5 {
@@ -6433,6 +6433,7 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 .mb-4 {
+  margin-top: 15px;
   margin-bottom: 1.5rem !important;
 }
 .mb-5 {
