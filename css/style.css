@@ -105,6 +105,109 @@
   max-height: 45px;
 }
 
+/* Tentang Pengaduan Layanan */
+.tentang-pengaduan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.tentang-pengaduan-text {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.tentang-pengaduan-text h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.tentang-pengaduan-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.tentang-pengaduan-text .btn {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.tentang-pengaduan-img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.tentang-pengaduan-img img {
+  border-radius: 50%;
+}
+
+.poto-large {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+.poto-large img {
+  width: 100%;
+  height: 100%;
+}
+
+.poto-small {
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: #fff;
+}
+
+.poto-small img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Alur Pengaduan Layanan */
+.alur-pengaduan{
+  display: grid;
+  background-color: var(--light);
+  padding: 60px 80px;
+  align-items: center;
+  justify-items: left;
+}
+
+.alur-pengaduan h2{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.alur-alur{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 25px 0;
+  column-gap: 25px;
+}
+
+.alur-alur h3{
+  background: var(--bs-cyan);
+  border-radius: 50%;
+  width: 0px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  text-align: center;
+  line-height: 80px;
+}
 
 /* Trending Section */
 .trending-section {
@@ -154,6 +257,20 @@
 }
 
 @media (min-width: 768px) {
+  .tentang-pengaduan{
+    padding: 20px 80px;
+  }
+
+  .poto-large{
+    width: 200px;
+    height: 200px;
+  }
+
+  .poto-small{
+    width: 100px;
+    height: 100px;
+  }
+
   .trending-cards {
     display: flex;
     flex-wrap: wrap;
