@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8"/>
     <title>YOGYASAMBAT</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -15,79 +15,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"/>
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="" class="navbar-brand p-0">
-          <img src="img/Logo.png" alt="YOGYASAMBAT Logo" class="logo">
-          <img src="img/Logo_Yogya.png" alt="YOGYASAMBAT Logo" class="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">BERANDA</a>
-            <a href="trending.html" class="nav-item nav-link">TRENDING</a>
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LAYANAN</a>
-              <div class="dropdown-menu m-0">
-                <a href="ajukan.html" class="dropdown-item">Ajukan Pengaduan</a>
-                <a href="status.html" class="dropdown-item">Status Pengaduan</a>
-                <a href="faq.html" class="dropdown-item">FAQ</a>
-              </div>
-            </div>
-            <a href="tentang.html" class="nav-item nav-link">TENTANG KAMI</a>
-            <a href="login.html" class="nav-item nav-link">MASUK</a>
-          </div>
-        </div>
-      </nav>
-
-      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div class="container py-5">
-          <div class="row justify-content-center py-5">
-            <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-              <h1 class="display-3 text-dark mb-3">LAYANAN PENGADUAN DAN PELAPORAN KOTA YOGYAKARTA</h1>
-              <p class="fs-4 text-white mb-4">
-                Lorem ipsum dolor sit amet consectetur. Egestas amet integer nunc magna nullam mauris pulvinar et.
-              </p>
-              <a href="" class="btn btn-primary rounded-pill py-2 px-4">AJUKAN PENGADUAN</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Navbar & Hero End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Custom Navbar Web Component -->
+    <custom-navbar></custom-navbar>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+    <!-- Import Custom Navbar Web Component -->
+    <script src="js/components/navbar.js"></script>
+</body>
 </html>
