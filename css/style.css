@@ -526,6 +526,139 @@ form button:hover {
   margin-top: 3.2rem;
 }
 
+/* status pengaduan page */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container .col-lg-8 {
+  width: 100%;
+}
+
+.pengaduan-id {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.pengaduan-id span {
+  font-weight: 700;
+  color: #007bff;
+}
+
+.status-steps {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.status-steps .step {
+  text-align: center;
+  flex: 1;
+}
+
+.status-steps .step i {
+  font-size: 24px;
+  color: #ccc;
+}
+
+.status-steps .step p {
+  margin-top: 10px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.status-steps .step.active i,
+.status-steps .step.active p {
+  color: #28a745;
+}
+
+.laporan {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.laporan h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.laporan-status p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.laporan-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.laporan-detail ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.laporan-detail ul li strong {
+  font-weight: 700;
+}
+
+.laporan-detail ul li a {
+  color: #007bff;
+}
+
+.action-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.action-buttons .btn {
+  background: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.action-buttons .btn:hover {
+  background: #c82333;
+}
+
+.laporan-status, .laporan-detail {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.laporan-status h2, .laporan-detail h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  padding: 20px 0;
+  margin: 2px 0;
+}
+
+.laporan-detail ul li {
+  margin-bottom: 15px;
+}
+
+.status-steps .step i.fas.fa-check-circle {
+  color: #28a745;
+}
+
+.status-steps .step i.fas.fa-circle {
+  color: #6c757d;
+}
+
 /*** Footer ***/
 .footer .btn.btn-social {
   margin-right: 5px;
